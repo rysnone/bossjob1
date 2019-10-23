@@ -106,4 +106,7 @@ npm install node-sass --save
 ## 使用Ajax库-axios 
  $ npm install --save --save-exact axios vue-axios
  在main.js中导入
- 
+// 导入axios包
+import axios from 'axios';
+import VueAxios from 'vue-axios';
+Vue.use(VueAxios,axios)
