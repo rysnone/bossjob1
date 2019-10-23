@@ -69,3 +69,41 @@ npm install node-sass --save
     loaders: ['style', 'css', 'sass'] 
    }
    注意，安装sass-loader不能安装最新版本，否则会报错
+
+   # 使用 mint-ui 基于 Vue.js 的移动端组件库
+    1. npm i mint-ui -S
+    2.使用：
+    全部引用：
+    import Vue from 'vue'
+    import MintUI from 'mint-ui'
+    import 'mint-ui/lib/style.css'
+    import App from './App.vue'
+
+    Vue.use(MintUI)
+
+    new Vue({
+    el: '#app',
+    components: { App }
+    })
+    ============
+    部分引用：
+    import Vue from 'vue'
+    import { Button, Cell } from 'mint-ui'
+    import App from './App.vue'
+
+    Vue.component(Button.name, Button)
+    Vue.component(Cell.name, Cell)
+    /* 或写为
+    * Vue.use(Button)
+    * Vue.use(Cell)
+    */
+
+    new Vue({daoru
+    el: '#app',
+    components: { App }
+    })
+==============
+## 使用Ajax库-axios 
+ $ npm install --save --save-exact axios vue-axios
+ 在main.js中导入
+ 
