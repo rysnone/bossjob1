@@ -110,3 +110,16 @@ npm install node-sass --save
 import axios from 'axios';
 import VueAxios from 'vue-axios';
 Vue.use(VueAxios,axios)
+
+## mui 添加自定义图标 iconfont 阿里巴巴矢量图标库
+ $ https://ask.dcloud.net.cn/article/128
+ - 选择自己喜欢的图标，点击，会添加到右上角的购物车中
+ - 之后点击“存储为项目”，输入项目名字，例如“mui-icon-custom”，点击“存储”  按钮后，会跳转到项目管理页面
+ - 点击“下载到本地”按钮，会将合并后的字体文件及自动生成的css全部下载
+ - iconfont.css中修改
+ @font-face {font-family: "iconfont";
+  src:url('../fonts/iconfont.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/  
+  }
+ - main.js 中 导入iconfont图标
+    import './lib/mui/css/iconfont.css'
+    使用： <span class="mui-icon iconfont icon-zhiwei"></span>

@@ -14,21 +14,21 @@
     <!-- 底部 Tabbar 区域 -->
     <nav class="mui-bar mui-bar-tab">
       <router-link class="mui-tab-item" to="/joblist">
-        <span class="mui-icon mui-icon-extra mui-icon-extra-order"></span>
+        <span class="mui-icon iconfont icon-zhiwei2"></span>
         <span class="mui-tab-label">职位</span>
       </router-link>
       <router-link class="mui-tab-item" to="/company">
-        <span class="mui-icon mui-icon-extra mui-icon-extra-hotel"></span>
+        <span class="mui-icon iconfont icon-company"></span>
         <span class="mui-tab-label">公司</span>
       </router-link>
       <router-link class="mui-tab-item" to="/news">
-        <span class="mui-icon mui-icon-chatbubble">
+        <span class="mui-icon iconfont icon-xinxi1">
           <span class="mui-badge">9</span>
         </span>
         <span class="mui-tab-label">消息</span>
       </router-link>
       <router-link class="mui-tab-item" to="/mycenter">
-        <span class="mui-icon mui-icon mui-icon-person"></span>
+        <span class="mui-icon iconfont icon-zhiwei"></span>
         <span class="mui-tab-label">我的</span>
       </router-link>
     </nav>
@@ -45,8 +45,12 @@ $blue:#37c2bb;
 .app-container {
   .app-header{
     background:$blue;
+    height: 42px;
+    line-height: 42px;
+    z-index: 666;
+    font-size: 18px;
   }
-  padding-top: 40px;
+  padding: 42px 0;
   
 }
 </style>

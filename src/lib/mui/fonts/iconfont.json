@@ -1,0 +1,72 @@
+{
+  "id": "1475461",
+  "name": "mui-icon-custom",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1836517",
+      "name": "公司",
+      "font_class": "company",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1840643",
+      "name": "职位",
+      "font_class": "zhiwei",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "1906652",
+      "name": "信息",
+      "font_class": "xinxi3",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "2739780",
+      "name": "信息",
+      "font_class": "xinxi1",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "2826340",
+      "name": "信息 (1)",
+      "font_class": "xinxi",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "3212238",
+      "name": "职位",
+      "font_class": "zhiwei2",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "6194890",
+      "name": "信息",
+      "font_class": "xinxi2",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "9855766",
+      "name": "职位",
+      "font_class": "zhiwei3",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "10725342",
+      "name": "职位",
+      "font_class": "zhiwei1",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    }
+  ]
+}

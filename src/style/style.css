@@ -2,3 +2,12 @@
     /* color: #929292; */
     color: #333333;
 }
+.clearfix{
+    clear: both;
+}
+.f_l{
+    float: left;
+}
+.f_r{
+    float: right;
+}
