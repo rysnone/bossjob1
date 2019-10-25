@@ -123,3 +123,13 @@ Vue.use(VueAxios,axios)
  - main.js 中 导入iconfont图标
     import './lib/mui/css/iconfont.css'
     使用： <span class="mui-icon iconfont icon-zhiwei"></span>
+
+## nodejs 开发框架 express 与 mysql 数据库
+   安装 express 与 mysql 依赖
+  - npm install express --save
+  - npm install mysql --save
+  - 创建 server.js
+
+
+
+

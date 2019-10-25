@@ -11,8 +11,9 @@
       </div>
     </div>
     <ul class="list-box">
-      <li class="li-item">
-        <a href="javascript:;">
+      <li class="li-item" v-for="item in joblist"
+      :key="item.id"> 
+        <router-link to="/joblist/jobdetail">
           <div class="first-line">
             <h2 class="left">web前端</h2>
             <h2 class="right">9-14k</h2>
@@ -33,7 +34,7 @@
             </div>
             <div class="right">深圳 南山区 南油</div>
           </div>
-        </a>
+        </router-link>
       </li>
       <li class="li-item">
         <a href="javascript:;">
@@ -87,6 +88,25 @@
   </div>
 </template>
 <script>
+export default {
+  data(){
+    return {
+      joblist: []
+    };
+  },
+  created(){
+    this.getjoblist();
+  },
+  methods:{
+    getjoblist(){ //获取职位列表
+      axios({
+        url:''
+      }).then(res=>{
+        console.info(res)
+      })
+    }
+  }
+}
 </script>
 <style lang="scss" scoped>
 $blue: #37c2bb;
@@ -143,7 +163,7 @@ $fontcolor: #666666;
     li.li-item {
       background: white;
       padding: 16px;
-      margin-bottom: 16px;
+      margin-bottom: 12px;
       a {
         & > div {
           display: -webkit-flex;

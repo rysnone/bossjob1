@@ -8,7 +8,7 @@
       </mt-button>
     </mt-header>
     <!-- 中间的路由 router-view 区域 -->
-    <transition>
+    <transition mode="out-in">
       <router-view></router-view>
     </transition>
     <!-- 底部 Tabbar 区域 -->
